@@ -1,0 +1,604 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ASG Sicherheit & Service – Professionelle Sicherheitsdienstleistungen für Unternehmen, Veranstaltungen und Immobilien.">
+    <title>ASG – Sicherheit & Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#start" class="logo">
+            <img src="logo-weiss.jpg" alt="ASG Sicherheit & Service">
+        </a>
+
+        <nav class="desktop-nav" aria-label="Hauptnavigation">
+            <a href="#start" data-i18n="nav_home">Startseite</a>
+            <a href="#ueber-uns" data-i18n="nav_about">Über uns</a>
+            <a href="#dienstleistungen" data-i18n="nav_services">Dienstleistungen</a>
+            <a href="#kontakt" data-i18n="nav_contact">Kontakt</a>
+        </nav>
+
+        <div class="header-actions">
+            <div class="language-switch" aria-label="Sprachauswahl">
+                <button class="lang-btn active" data-lang="de" aria-label="Deutsch auswählen">DE</button>
+                <span class="language-divider">|</span>
+                <button class="lang-btn" data-lang="en" aria-label="Select English">EN</button>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Menü öffnen" aria-expanded="false"
+                    aria-controls="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- MOBILE MENU -->
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobilnavigation">
+        <a href="#start" data-i18n="nav_home">Startseite</a>
+        <a href="#ueber-uns" data-i18n="nav_about">Über uns</a>
+        <a href="#dienstleistungen" data-i18n="nav_services">Dienstleistungen</a>
+        <a href="#kontakt" data-i18n="nav_contact">Kontakt</a>
+        <a href="#karriere" data-i18n="nav_jobs">Jobs & Karriere</a>
+        <a href="#impressum" data-i18n="nav_imprint">Impressum</a>
+        <a href="#agb" data-i18n="nav_terms">AGB</a>
+        <a href="#datenschutz" data-i18n="nav_privacy">Datenschutz</a>
+    </nav>
+
+    <main>
+
+        <!-- HERO / STARTSEITE -->
+        <section class="hero" id="start">
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <span class="eyebrow" data-i18n="hero_eyebrow">ASG SICHERHEIT & SERVICE</span>
+
+                <h1 data-i18n="hero_title">
+                    Sicherheit, auf die Sie sich verlassen können.
+                </h1>
+
+                <p data-i18n="hero_description">
+                    Professionelle Sicherheitslösungen für Unternehmen,
+                    Veranstaltungen und Immobilien.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#kontakt" class="btn btn-light" data-i18n="hero_contact">
+                        Kontakt aufnehmen
+                    </a>
+
+                    <a href="#dienstleistungen" class="btn btn-outline" data-i18n="hero_services">
+                        Unsere Leistungen
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-bottom">
+                <span>PROFESSIONELL</span>
+                <span>ZUVERLÄSSIG</span>
+                <span>VERANTWORTUNGSVOLL</span>
+            </div>
+        </section>
+
+        <!-- ABOUT ASG -->
+        <section class="intro section" id="ueber-uns">
+            <div class="section-label" data-i18n="intro_label">WILLKOMMEN BEI ASG</div>
+
+            <h2>
+                <span class="intro-title-first" data-i18n="intro_title_first">Sicherheit mit</span><br>
+                <span data-i18n="intro_title_second">Verantwortung und Kompetenz.</span>
+            </h2>
+
+            <p data-i18n="intro_text">
+                Die ASG Sicherheit &amp; Service UG (haftungsbeschränkt) ist ein in Dortmund ansässiges Sicherheitsunternehmen.
+                Seit dem 01.07.2026 bieten wir Sicherheitsdienstleistungen für Unternehmen, Veranstaltungen und unterschiedliche Einsatzbereiche an.
+                Unser Anspruch ist es, Menschen, Gebäude und Eigentum zuverlässig zu schützen und unseren Kunden einen professionellen Sicherheitsservice zu bieten.
+            </p>
+
+            <p data-i18n="intro_authorization">
+                Unser Unternehmen verfügt über die behördliche Erlaubnis gemäß § 34a Abs. 1 der Gewerbeordnung zur gewerbsmäßigen Bewachung von Leben und Eigentum fremder Personen.
+            </p>
+
+            <a href="#dienstleistungen" class="text-link" data-i18n="intro_link">
+                Unsere Dienstleistungen entdecken →
+            </a>
+        </section>
+
+        <!-- COMPANY FACTS -->
+        <section class="company-facts section">
+            <div class="section-label" data-i18n="company_label">ASG SICHERHEIT &amp; SERVICE</div>
+
+            <h2 data-i18n="company_title">
+                Ein Unternehmen mit offizieller Erlaubnis.
+            </h2>
+
+            <div class="facts-grid">
+                <div class="fact-card">
+                    <span class="fact-number">§ 34a</span>
+                    <h3 data-i18n="company_permit">Gewerbeerlaubnis</h3>
+                    <p data-i18n="company_permit_text">
+                        Behördliche Erlaubnis zur gewerbsmäßigen Bewachung von Leben und Eigentum fremder Personen.
+                    </p>
+                </div>
+
+                <div class="fact-card">
+                    <span class="fact-number">DE</span>
+                    <h3 data-i18n="company_area">Bundesweites Einsatzgebiet</h3>
+                    <p data-i18n="company_area_text">
+                        Die Erlaubnis gilt im gesamten Geltungsbereich der Gewerbeordnung.
+                    </p>
+                </div>
+
+                <div class="fact-card">
+                    <span class="fact-number">DO</span>
+                    <h3 data-i18n="company_location">Standort Dortmund</h3>
+                    <p data-i18n="company_location_text">
+                        Unser Unternehmensstandort befindet sich in Dortmund, Nordrhein-Westfalen.
+                    </p>
+                </div>
+            </div>
+
+            <div class="permit-note">
+                <div class="permit-icon" aria-hidden="true">✓</div>
+                <div>
+                    <strong data-i18n="company_permit_date">Erlaubnis nach § 34a Abs. 1 GewO</strong>
+                    <p data-i18n="company_permit_date_text">
+                        Erteilt durch das Ordnungsamt der Stadt Dortmund am 03.08.2026.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services section" id="dienstleistungen">
+
+            <div class="section-label" data-i18n="services_label">UNSERE LEISTUNGEN</div>
+
+            <h2 data-i18n="services_title">Unsere Dienstleistungen</h2>
+
+            <p class="section-description" data-i18n="services_description">
+                Individuelle Sicherheitslösungen für unterschiedliche
+                Einsatzbereiche.
+            </p>
+
+            <div class="service-grid">
+
+                <article class="service-card">
+                    <div class="service-number">01</div>
+                    <div class="service-icon">▣</div>
+                    <h3 data-i18n="service1_title">Objektschutz</h3>
+                    <p data-i18n="service1_text">
+                        Schutz von Gebäuden, Anlagen und betrieblichen
+                        Einrichtungen vor unbefugtem Zutritt und Gefahren.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-number">02</div>
+                    <div class="service-icon">◇</div>
+                    <h3 data-i18n="service2_title">Veranstaltungsschutz</h3>
+                    <p data-i18n="service2_text">
+                        Sicherheitsdienstleistungen für Veranstaltungen,
+                        Events und öffentliche Zusammenkünfte.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-number">03</div>
+                    <div class="service-icon">▤</div>
+                    <h3 data-i18n="service3_title">Empfangs- &amp; Pfortendienste</h3>
+                    <p data-i18n="service3_text">
+                        Professioneller Empfang, Besucherregistrierung
+                        und Überwachung von Zugangsbereichen.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-number">04</div>
+                    <div class="service-icon">◷</div>
+                    <h3 data-i18n="service4_title">Revier- &amp; Streifendienst</h3>
+                    <p data-i18n="service4_text">
+                        Regelmäßige Kontrollfahrten und Streifengänge
+                        zur Überprüfung von Objekten und Geländen.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-number">05</div>
+                    <div class="service-icon">♨</div>
+                    <h3 data-i18n="service5_title">Brandwachen</h3>
+                    <p data-i18n="service5_text">
+                        Überwachung brandgefährdeter Bereiche und
+                        Sicherstellung der vereinbarten Brandschutzmaßnahmen.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-number">06</div>
+                    <div class="service-icon">⌑</div>
+                    <h3 data-i18n="service6_title">Zutritts- &amp; Zugangskontrollen</h3>
+                    <p data-i18n="service6_text">
+                        Kontrolle von Personen, Berechtigungen und
+                        Zugängen zu geschützten Bereichen.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-number">07</div>
+                    <div class="service-icon">⌕</div>
+                    <h3 data-i18n="service7_title">Schließ- &amp; Öffnungsdienste</h3>
+                    <p data-i18n="service7_text">
+                        Zuverlässige Durchführung vereinbarter
+                        Schließ- und Öffnungskontrollen.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-number">08</div>
+                    <div class="service-icon">◎</div>
+                    <h3 data-i18n="service8_title">Kaufhaus- &amp; Einzelhandelsdetektive</h3>
+                    <p data-i18n="service8_text">
+                        Präventive Überwachung von Verkaufsflächen
+                        und Erkennung verdächtiger Vorgänge.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-number">09</div>
+                    <div class="service-icon">⌖</div>
+                    <h3 data-i18n="service9_title">Parkplatz- &amp; Geländebewachung</h3>
+                    <p data-i18n="service9_text">
+                        Überwachung von Parkplätzen, Außenflächen
+                        und betrieblichen Geländen.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta">
+            <div class="cta-content">
+                <div class="section-label" data-i18n="cta_label">IHR SICHERHEITSPARTNER</div>
+                <h2 data-i18n="cta_title">Sie benötigen professionelle Unterstützung?</h2>
+                <p data-i18n="cta_text">
+                    Sprechen Sie mit uns über Ihren individuellen
+                    Sicherheitsbedarf.
+                </p>
+                <a href="#kontakt" class="btn btn-light" data-i18n="cta_button">
+                    Jetzt unverbindlich anfragen
+                </a>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact section" id="kontakt">
+
+            <div class="section-label" data-i18n="contact_label">KONTAKT</div>
+
+            <h2 data-i18n="contact_title">Wir sind für Sie da.</h2>
+
+            <p class="section-description" data-i18n="contact_description">
+                Sie haben Fragen oder benötigen ein individuelles Angebot?
+                Kontaktieren Sie uns.
+            </p>
+
+            <div class="contact-grid">
+
+                <a href="mailto:info@asgsicherheit.de"
+                   class="contact-card">
+                    <span class="contact-symbol">✉</span>
+                    <h3 data-i18n="contact_email">E-Mail</h3>
+                    <p data-i18n="contact_email_text">Schreiben Sie uns.</p>
+                </a>
+
+                <a href="tel:+490000000000"
+                   class="contact-card">
+                    <span class="contact-symbol">☎</span>
+                    <h3 data-i18n="contact_phone">Telefon</h3>
+                    <p data-i18n="contact_phone_text">Rufen Sie uns an.</p>
+                </a>
+
+                <a href="https://wa.me/490000000000"
+                   target="_blank" rel="noopener noreferrer"
+                   class="contact-card">
+                    <span class="contact-symbol">◉</span>
+                    <h3 data-i18n="contact_whatsapp">WhatsApp</h3>
+                    <p data-i18n="contact_whatsapp_text">Schreiben Sie uns direkt.</p>
+                </a>
+
+            </div>
+
+            <!-- CONTACT FORM -->
+            <div class="contact-form-container">
+                <h3 data-i18n="form_title">Schreiben Sie uns eine Nachricht</h3>
+
+                <form id="contactForm" action="send-contact.php" method="post">
+
+                    <div class="form-honeypot" aria-hidden="true">
+                        <label for="website">Website</label>
+                        <input type="text" id="website" name="website"
+                               tabindex="-1" autocomplete="off">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name" data-i18n="form_name">Vor- und Nachname</label>
+                            <input type="text" id="name" name="name"
+                                   placeholder="Ihr Name" data-i18n-placeholder="form_name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" data-i18n="form_email">E-Mail-Adresse</label>
+                            <input type="email" id="email" name="email"
+                                   placeholder="Ihre E-Mail" data-i18n-placeholder="form_email" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject" data-i18n="form_subject">Betreff</label>
+                        <input type="text" id="subject" name="subject"
+                               placeholder="Worum geht es?" data-i18n-placeholder="form_subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" data-i18n="form_message">Nachricht</label>
+                        <textarea id="message" name="message"
+                                  rows="6" placeholder="Ihre Nachricht..." data-i18n-placeholder="form_message"
+                                  required></textarea>
+                    </div>
+
+                    <label class="privacy-check">
+                        <input type="checkbox" required>
+                        <span data-i18n="form_privacy">Ich habe die Datenschutzhinweise zur Kenntnis genommen.</span>
+                    </label>
+
+                    <button type="submit" class="btn btn-dark" data-i18n="form_submit">
+                        Nachricht senden
+                    </button>
+
+                    <p class="form-status" id="contactStatus" role="status"
+                       aria-live="polite" hidden></p>
+
+                    <p class="form-note" data-i18n="form_note">
+                        Ihre Nachricht wird direkt über die Website versendet.
+                    </p>
+
+                </form>
+            </div>
+        </section>
+
+        <!-- CAREER -->
+        <section class="career" id="karriere">
+
+            <div class="career-content">
+                <div class="section-label" data-i18n="career_label">JOBS & KARRIERE</div>
+
+                <h2 data-i18n="career_title">Werde Teil des ASG-Teams.</h2>
+
+                <p data-i18n="career_text">
+                    Du suchst einen flexiblen Nebenjob und möchtest
+                    Verantwortung übernehmen?
+
+                    Wir sind an motivierten und zuverlässigen Mitarbeitern
+                    interessiert.
+                </p>
+
+                <div class="career-feature">
+                    <span>✓</span> <span data-i18n="career_feature1">Möglichkeit eines Minijobs</span>
+                </div>
+
+                <div class="career-feature">
+                    <span>✓</span> <span data-i18n="career_feature2">Unterschiedliche Einsatzbereiche</span>
+                </div>
+
+                <div class="career-feature">
+                    <span>✓</span> <span data-i18n="career_feature3">Direkte Kontaktaufnahme</span>
+                </div>
+
+                <a href="mailto:info@asgsicherheit.de?subject=Minijob%20Bewerbung"
+                   class="btn btn-light" data-i18n="career_button">
+                    Jetzt bewerben
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+                <img src="logo-weiss.jpg" alt="ASG Logo">
+                <p>
+                    ASG – Arshia Asgarzadeh<br>
+                    Sicherheit & Service
+                </p>
+
+                <div class="footer-socials">
+                    <h3 data-i18n="footer_social_heading">Folgen Sie uns</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/asg_service_group/"
+                           target="_blank" rel="noopener noreferrer"
+                           aria-label="ASG auf Instagram"
+                           data-i18n-aria-label="social_instagram_aria">
+                            <span class="social-icon" aria-hidden="true">IG</span>
+                            <span data-i18n="social_instagram">Instagram</span>
+                        </a>
+
+                        <a href="https://www.tiktok.com/@asg_security"
+                           target="_blank" rel="noopener noreferrer"
+                           aria-label="ASG auf TikTok"
+                           data-i18n-aria-label="social_tiktok_aria">
+                            <span class="social-icon" aria-hidden="true">TT</span>
+                            <span data-i18n="social_tiktok">TikTok</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3 data-i18n="footer_navigation">Navigation</h3>
+                <a href="#start" data-i18n="nav_home">Startseite</a>
+                <a href="#ueber-uns" data-i18n="nav_about">Über uns</a>
+                <a href="#dienstleistungen" data-i18n="nav_services">Dienstleistungen</a>
+                <a href="#kontakt" data-i18n="nav_contact">Kontakt</a>
+            </div>
+
+            <div class="footer-column">
+                <h3 data-i18n="footer_company">Unternehmen</h3>
+                <a href="#karriere" data-i18n="nav_jobs">Jobs & Karriere</a>
+                <a href="#impressum" data-i18n="nav_imprint">Impressum</a>
+                <a href="#agb" data-i18n="nav_terms">AGB</a>
+                <a href="#datenschutz" data-i18n="nav_privacy">Datenschutz</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© <span id="year"></span> ASG Sicherheit & Service</p>
+            <p data-i18n="footer_rights">Alle Rechte vorbehalten.</p>
+            <button class="footer-cookie-link" id="changeCookieSettings"
+                    data-i18n="cookie_manage">
+                Cookie-Einstellungen
+            </button>
+        </div>
+
+    </footer>
+
+    <!-- LEGAL NOTICE -->
+    <section class="legal-placeholder" id="impressum">
+        <h2 data-i18n="imprint_title">Impressum</h2>
+        <h3 data-i18n="imprint_legal_basis">Angaben gemäß § 5 DDG</h3>
+        <p data-i18n="imprint_entity">ASG Sicherheit &amp; Service UG (haftungsbeschränkt)</p>
+        <p>
+            <span data-i18n="imprint_address_street">Hengsener Straße 8</span><br>
+            <span data-i18n="imprint_address_city">44309 Dortmund</span><br>
+            <span data-i18n="imprint_address_country">Deutschland</span>
+        </p>
+        <h3 data-i18n="imprint_represented_heading">Vertreten durch</h3>
+        <p data-i18n="imprint_represented">[Geschäftsführer / vertretungsberechtigte Person ergänzen]</p>
+        <h3 data-i18n="imprint_register_heading">Registereintrag</h3>
+        <p>
+            <span data-i18n="imprint_register_number">Handelsregister: HRB 38482</span><br>
+            <span data-i18n="imprint_register_court">Registergericht: Amtsgericht Dortmund</span>
+        </p>
+        <h3 data-i18n="imprint_permit_heading">Erlaubnis für das Bewachungsgewerbe</h3>
+        <p data-i18n="imprint_permit">
+            Erlaubnis gemäß § 34a Abs. 1 GewO, erteilt durch das Ordnungsamt der Stadt Dortmund am 03.08.2026.
+        </p>
+        <h3 data-i18n="imprint_contact_heading">Kontakt</h3>
+        <p>
+            <span data-i18n="imprint_phone">Telefon: [Geschäftliche Telefonnummer ergänzen]</span><br>
+            <span data-i18n="imprint_email">E-Mail: info@asgsicherheit.de</span>
+        </p>
+        <p data-i18n="imprint_text">
+            Weitere gesetzlich erforderliche Angaben sind vor Veröffentlichung zu ergänzen.
+        </p>
+    </section>
+
+    <section class="legal-placeholder" id="agb">
+        <h2 data-i18n="terms_title">Allgemeine Geschäftsbedingungen</h2>
+        <p data-i18n="terms_text">
+            Hier müssen die für ASG geltenden und rechtlich geprüften
+            Geschäftsbedingungen hinterlegt werden.
+        </p>
+    </section>
+
+    <section class="legal-placeholder" id="datenschutz">
+        <h2 data-i18n="privacy_title">Datenschutzerklärung</h2>
+        <p data-i18n="privacy_text">
+            Hier muss eine auf die tatsächlich eingesetzten Dienste
+            und Datenverarbeitungen abgestimmte Datenschutzerklärung
+            hinterlegt werden.
+        </p>
+    </section>
+
+    <!-- COOKIE CONSENT BANNER -->
+    <div class="cookie-banner" id="cookieBanner" role="region"
+         aria-label="Cookie-Einstellungen" data-i18n-aria-label="cookie_region" hidden>
+        <div class="cookie-content">
+            <div class="cookie-heading">
+                <h3 data-i18n="cookie_title">Ihre Privatsphäre ist uns wichtig.</h3>
+            </div>
+
+            <p data-i18n="cookie_text">
+                Wir verwenden notwendige Cookies, um diese Website bereitzustellen.
+                Optionale Cookies helfen uns, die Website zu verbessern. Sie entscheiden selbst.
+            </p>
+
+            <div class="cookie-links">
+                <a href="#datenschutz" data-i18n="nav_privacy">Datenschutz</a>
+                <a href="#impressum" data-i18n="nav_imprint">Impressum</a>
+                <a href="#agb" data-i18n="nav_terms">AGB</a>
+            </div>
+
+            <div class="cookie-settings" id="cookieSettings" hidden>
+                <div class="cookie-option">
+                    <div>
+                        <strong data-i18n="cookie_necessary">Notwendige Cookies</strong>
+                        <p data-i18n="cookie_necessary_text">Für die grundlegende Funktion der Website erforderlich.</p>
+                    </div>
+                    <input type="checkbox" checked disabled
+                           aria-label="Notwendige Cookies sind immer aktiv"
+                           data-i18n-aria-label="cookie_necessary_aria">
+                </div>
+
+                <div class="cookie-option">
+                    <div>
+                        <strong data-i18n="cookie_analytics">Statistik-Cookies</strong>
+                        <p data-i18n="cookie_analytics_text">Helfen uns, die Nutzung der Website zu verstehen.</p>
+                    </div>
+                    <input type="checkbox" id="analyticsCookies"
+                           aria-label="Statistik-Cookies erlauben"
+                           data-i18n-aria-label="cookie_analytics_aria">
+                </div>
+
+                <div class="cookie-option">
+                    <div>
+                        <strong data-i18n="cookie_marketing">Marketing-Cookies</strong>
+                        <p data-i18n="cookie_marketing_text">Ermöglichen personalisierte Werbung und Inhalte.</p>
+                    </div>
+                    <input type="checkbox" id="marketingCookies"
+                           aria-label="Marketing-Cookies erlauben"
+                           data-i18n-aria-label="cookie_marketing_aria">
+                </div>
+
+                <button class="cookie-button cookie-save" id="saveCookieSettings"
+                        data-i18n="cookie_save">
+                    Auswahl speichern
+                </button>
+            </div>
+
+            <p class="cookie-error" id="cookieError" role="alert" hidden></p>
+
+            <div class="cookie-buttons" id="cookieButtons">
+                <button class="cookie-button cookie-accept" id="acceptCookies"
+                        data-i18n="cookie_accept">Alle akzeptieren</button>
+                <button class="cookie-button cookie-reject" id="rejectCookies"
+                        data-i18n="cookie_reject">Ablehnen</button>
+                <button class="cookie-button cookie-settings-btn" id="openCookieSettings"
+                        aria-controls="cookieSettings" aria-expanded="false"
+                        data-i18n="cookie_settings">Einstellungen</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
